@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ftqq"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="方糖气球微信推送" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="SCKEY:" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="-0.896,0.5"/>
+        <TextBox Name="tb_sckey" BorderBrush="Black" HorizontalAlignment="Left" Height="24" Margin="67,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="633"/>
+        <Button Name="bt_send" Content="SEND" HorizontalAlignment="Left" Height="24" Margin="717,10,0,0" VerticalAlignment="Top" Width="67" Click="Bt_send_Click"/>
+        <TextBox Name="tb_text" BorderBrush="Black" HorizontalAlignment="Left" Height="24" Margin="10,39,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top" Width="690"/>
+        <TextBox Name="tb_desp" BorderBrush="Black" HorizontalAlignment="Left" Height="284" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="690"/>
+        <TextBlock Name="tb_result" Background="AliceBlue" HorizontalAlignment="Left" Height="53" Margin="10,357,0,0" TextWrapping="Wrap" Text="result" Foreground="YellowGreen" VerticalAlignment="Top" Width="690" FontSize="16"/>
+        <Button Name="bt_about" Content="About" Background="White" HorizontalAlignment="Left" Height="25" Margin="736,385,0,0" VerticalAlignment="Top" Width="48" BorderBrush="White" Foreground="#FF19F7D3" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.996,1.344" Click="Bt_about_Click"/>
+
     </Grid>
 </Window>
